@@ -8,7 +8,7 @@ kafka:ProducerConfiguration producerConfiguration = {
     retryCount: 3
 };
 
-kafka:Producer kafkaProducer = check new (kafka:DEFAULT_URL, producerConfiguration);
+kafka:Producer kafkaProducer = check new ("host.docker.internal:9092", producerConfiguration);
 
 public function main() {
 
