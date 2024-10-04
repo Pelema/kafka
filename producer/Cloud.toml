@@ -1,0 +1,4 @@
+[container.image]
+repository="wso2inc"
+name="kafka-producer"
+base="ballerina/jvm-runtime:2.0.2"

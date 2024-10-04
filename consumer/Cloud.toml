@@ -1,0 +1,4 @@
+[container.image]
+repository="wso2inc"
+name="hello"
+base="ballerina/jvm-runtime:2.0.2"
